@@ -1,10 +1,10 @@
-package io.github.yarovyi.cli.view;
+package io.github.bohdanyarovyi.cli.view;
 
-import io.github.yarovyi.cli.action.commandManagement.CommandRegister;
-import io.github.yarovyi.cli.action.commandManagement.command.Command;
-import io.github.yarovyi.cli.action.operationManagement.Operation;
-import io.github.yarovyi.cli.action.operationManagement.OperationRegister;
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.action.commandManagement.CommandRegister;
+import io.github.bohdanyarovyi.cli.action.commandManagement.command.Command;
+import io.github.bohdanyarovyi.cli.action.operationManagement.Operation;
+import io.github.bohdanyarovyi.cli.action.operationManagement.OperationRegister;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 import java.util.List;
 import java.util.Set;

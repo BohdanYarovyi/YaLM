@@ -1,7 +1,7 @@
-package io.github.yarovyi.cli.menu.handler.inputInterpreter;
+package io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter;
 
-import io.github.yarovyi.cli.action.Inputable;
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.action.Inputable;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 /**
  * Represents a strategy for interpreting user input in the context of a CLI menu.

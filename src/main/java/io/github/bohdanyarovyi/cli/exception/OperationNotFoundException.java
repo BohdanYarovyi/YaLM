@@ -1,6 +1,6 @@
-package io.github.yarovyi.cli.exception;
+package io.github.bohdanyarovyi.cli.exception;
 
-import io.github.yarovyi.cli.action.operationManagement.OperationRegister;
+import io.github.bohdanyarovyi.cli.action.operationManagement.OperationRegister;
 
 /**
  * Thrown when a requested operation is not found.

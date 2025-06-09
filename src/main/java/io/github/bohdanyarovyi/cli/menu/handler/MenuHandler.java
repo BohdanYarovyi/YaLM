@@ -1,10 +1,10 @@
-package io.github.yarovyi.cli.menu.handler;
+package io.github.bohdanyarovyi.cli.menu.handler;
 
-import io.github.yarovyi.cli.menu.Menu;
-import io.github.yarovyi.cli.menu.handler.inputInterpreter.CommandInterpreter;
-import io.github.yarovyi.cli.menu.handler.inputInterpreter.Interpreter;
-import io.github.yarovyi.cli.menu.handler.inputInterpreter.OperationInterpreter;
-import io.github.yarovyi.cli.menu.handler.inputInterpreter.SubmenuInterpreter;
+import io.github.bohdanyarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter.CommandInterpreter;
+import io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter.Interpreter;
+import io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter.OperationInterpreter;
+import io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter.SubmenuInterpreter;
 
 import java.util.ArrayList;
 import java.util.List;

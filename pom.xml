@@ -4,9 +4,37 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>io.github.bohdan-yarovyi</groupId>
+	<groupId>io.github.bohdanyarovyi</groupId>
 	<artifactId>ylmenu</artifactId>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+	<name>YaLM</name>
+	<description>Simple lightweight CLI menu framework for Java</description>
+	<url>https://github.com/BohdanYarovyi/YaLM</url>
+	
+	<licenses>
+		<license>
+			<name>The MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	
+	<developers>
+		<developer>
+			<id>bohdanyarovyi</id>
+			<name>Bohdan Yarovyi</name>
+			<email>bogdan.yarovyi.01@gmail.com</email>
+			<url>https://github.com/BohdanYarovyi</url>
+		</developer>
+	</developers>
+	
+	<scm>
+		<url>https://github.com/BohdanYarovyi/YaLM</url>
+		<connection>scm:git:git://github.com/BohdanYarovyi/YaLM.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/BohdanYarovyi/YaLM.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 	
 	<properties>
 		<maven.compiler.source>21</maven.compiler.source>

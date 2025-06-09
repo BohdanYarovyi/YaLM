@@ -1,6 +1,6 @@
-package io.github.yarovyi.cli.menu.handler.inputInterpreter;
+package io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter;
 
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 /**
  * A default interpreter for selecting submenus by entering a number.

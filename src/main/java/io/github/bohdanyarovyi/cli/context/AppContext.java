@@ -1,9 +1,9 @@
-package io.github.yarovyi.cli.context;
+package io.github.bohdanyarovyi.cli.context;
 
-import io.github.yarovyi.cli.action.commandManagement.CommandRegister;
-import io.github.yarovyi.cli.action.operationManagement.OperationRegister;
-import io.github.yarovyi.cli.exception.ContextNotFoundComponentException;
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.action.commandManagement.CommandRegister;
+import io.github.bohdanyarovyi.cli.action.operationManagement.OperationRegister;
+import io.github.bohdanyarovyi.cli.exception.ContextNotFoundComponentException;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 import java.util.HashMap;
 import java.util.Map;

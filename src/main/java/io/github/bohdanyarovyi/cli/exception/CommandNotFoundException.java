@@ -1,6 +1,6 @@
-package io.github.yarovyi.cli.exception;
+package io.github.bohdanyarovyi.cli.exception;
 
-import io.github.yarovyi.cli.action.commandManagement.CommandRegister;
+import io.github.bohdanyarovyi.cli.action.commandManagement.CommandRegister;
 
 /**
  * Thrown when a requested command is not found.

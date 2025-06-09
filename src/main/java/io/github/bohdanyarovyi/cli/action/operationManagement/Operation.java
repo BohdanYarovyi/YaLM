@@ -1,7 +1,7 @@
-package io.github.yarovyi.cli.action.operationManagement;
+package io.github.bohdanyarovyi.cli.action.operationManagement;
 
-import io.github.yarovyi.cli.action.Inputable;
-import io.github.yarovyi.cli.context.AppContext;
+import io.github.bohdanyarovyi.cli.action.Inputable;
+import io.github.bohdanyarovyi.cli.context.AppContext;
 
 import java.util.Objects;
 import java.util.regex.Pattern;

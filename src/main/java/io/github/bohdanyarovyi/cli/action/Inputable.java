@@ -1,7 +1,7 @@
-package io.github.yarovyi.cli.action;
+package io.github.bohdanyarovyi.cli.action;
 
-import io.github.yarovyi.cli.action.commandManagement.command.Command;
-import io.github.yarovyi.cli.action.operationManagement.Operation;
+import io.github.bohdanyarovyi.cli.action.commandManagement.command.Command;
+import io.github.bohdanyarovyi.cli.action.operationManagement.Operation;
 
 /**
  * Defines components that represent either a command or an operation.

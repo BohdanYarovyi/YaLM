@@ -1,9 +1,9 @@
-package io.github.yarovyi.cli.menu;
+package io.github.bohdanyarovyi.cli.menu;
 
-import io.github.yarovyi.cli.action.commandManagement.CommandRegister;
-import io.github.yarovyi.cli.action.operationManagement.OperationRegister;
-import io.github.yarovyi.cli.context.AppContext;
-import io.github.yarovyi.cli.menu.handler.MenuHandler;
+import io.github.bohdanyarovyi.cli.action.commandManagement.CommandRegister;
+import io.github.bohdanyarovyi.cli.action.operationManagement.OperationRegister;
+import io.github.bohdanyarovyi.cli.context.AppContext;
+import io.github.bohdanyarovyi.cli.menu.handler.MenuHandler;
 
 import java.util.ArrayList;
 import java.util.Collections;

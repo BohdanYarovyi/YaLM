@@ -1,8 +1,8 @@
-package io.github.yarovyi.cli.action.commandManagement.command;
+package io.github.bohdanyarovyi.cli.action.commandManagement.command;
 
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
-import static io.github.yarovyi.cli.view.DefaultViewTemplates.PRINT_MESSAGE;
+import static io.github.bohdanyarovyi.cli.view.DefaultViewTemplates.PRINT_MESSAGE;
 
 /**
  * A standard command for closing the program.

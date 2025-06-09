@@ -1,6 +1,6 @@
-package io.github.yarovyi.cli.action.commandManagement.command;
+package io.github.bohdanyarovyi.cli.action.commandManagement.command;
 
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 /**
  * A standard command that navigates back to the previous menu.

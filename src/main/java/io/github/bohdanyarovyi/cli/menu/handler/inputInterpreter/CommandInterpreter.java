@@ -1,10 +1,10 @@
-package io.github.yarovyi.cli.menu.handler.inputInterpreter;
+package io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter;
 
-import io.github.yarovyi.cli.action.Inputable;
-import io.github.yarovyi.cli.action.commandManagement.CommandRegister;
-import io.github.yarovyi.cli.action.commandManagement.command.Command;
-import io.github.yarovyi.cli.menu.Menu;
-import io.github.yarovyi.cli.menu.handler.MenuHandler;
+import io.github.bohdanyarovyi.cli.action.Inputable;
+import io.github.bohdanyarovyi.cli.action.commandManagement.CommandRegister;
+import io.github.bohdanyarovyi.cli.action.commandManagement.command.Command;
+import io.github.bohdanyarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.menu.handler.MenuHandler;
 
 /**
  * A default interpreter for simple commands like "/exit" or "/back".

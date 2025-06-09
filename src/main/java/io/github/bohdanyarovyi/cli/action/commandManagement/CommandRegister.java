@@ -1,9 +1,9 @@
-package io.github.yarovyi.cli.action.commandManagement;
+package io.github.bohdanyarovyi.cli.action.commandManagement;
 
-import io.github.yarovyi.cli.action.commandManagement.command.Command;
-import io.github.yarovyi.cli.context.AppContext;
-import io.github.yarovyi.cli.exception.CommandNotFoundException;
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.action.commandManagement.command.Command;
+import io.github.bohdanyarovyi.cli.context.AppContext;
+import io.github.bohdanyarovyi.cli.exception.CommandNotFoundException;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 import java.util.Collections;
 import java.util.HashSet;

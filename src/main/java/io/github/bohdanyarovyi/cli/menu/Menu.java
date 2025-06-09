@@ -1,13 +1,13 @@
-package io.github.yarovyi.cli.menu;
+package io.github.bohdanyarovyi.cli.menu;
 
-import io.github.yarovyi.cli.action.commandManagement.CommandRegister;
-import io.github.yarovyi.cli.action.operationManagement.OperationRegister;
-import io.github.yarovyi.cli.menu.handler.MenuHandler;
-import io.github.yarovyi.cli.view.DefaultViewTemplates;
+import io.github.bohdanyarovyi.cli.action.commandManagement.CommandRegister;
+import io.github.bohdanyarovyi.cli.action.operationManagement.OperationRegister;
+import io.github.bohdanyarovyi.cli.menu.handler.MenuHandler;
+import io.github.bohdanyarovyi.cli.view.DefaultViewTemplates;
 
 import java.util.List;
 
-import static io.github.yarovyi.cli.view.DefaultViewTemplates.*;
+import static io.github.bohdanyarovyi.cli.view.DefaultViewTemplates.*;
 
 /**
  * <p>

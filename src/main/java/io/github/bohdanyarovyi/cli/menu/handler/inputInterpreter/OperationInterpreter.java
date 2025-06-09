@@ -1,9 +1,9 @@
-package io.github.yarovyi.cli.menu.handler.inputInterpreter;
+package io.github.bohdanyarovyi.cli.menu.handler.inputInterpreter;
 
-import io.github.yarovyi.cli.action.Inputable;
-import io.github.yarovyi.cli.action.operationManagement.Operation;
-import io.github.yarovyi.cli.action.operationManagement.OperationRegister;
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.action.Inputable;
+import io.github.bohdanyarovyi.cli.action.operationManagement.Operation;
+import io.github.bohdanyarovyi.cli.action.operationManagement.OperationRegister;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 /**
  * A default interpreter for domain based operation like "/addWorkout" or "/doSomething".

@@ -1,8 +1,8 @@
-package io.github.yarovyi.cli.action.operationManagement;
+package io.github.bohdanyarovyi.cli.action.operationManagement;
 
-import io.github.yarovyi.cli.context.AppContext;
-import io.github.yarovyi.cli.exception.OperationNotFoundException;
-import io.github.yarovyi.cli.menu.Menu;
+import io.github.bohdanyarovyi.cli.context.AppContext;
+import io.github.bohdanyarovyi.cli.exception.OperationNotFoundException;
+import io.github.bohdanyarovyi.cli.menu.Menu;
 
 import java.util.Collections;
 import java.util.HashSet;

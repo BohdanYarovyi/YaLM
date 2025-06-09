@@ -1,6 +1,6 @@
-package io.github.yarovyi.cli.exception;
+package io.github.bohdanyarovyi.cli.exception;
 
-import io.github.yarovyi.cli.context.AppContext;
+import io.github.bohdanyarovyi.cli.context.AppContext;
 
 /**
  * Throws if not found requested component.
