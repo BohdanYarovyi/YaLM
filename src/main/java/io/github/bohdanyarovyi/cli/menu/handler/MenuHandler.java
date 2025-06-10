@@ -16,14 +16,12 @@ import java.util.List;
  *     These interpreters are responsible for recognizing user input and executing
  *     the corresponding command, operation, or submenu selection.
  * </p>
- * <p>
- *     The default constructor registers three interpreters by default:
- *     <ul>
- *         <li>{@link CommandInterpreter}</li>
- *         <li>{@link OperationInterpreter}</li>
- *         <li>{@link SubmenuInterpreter}</li>
- *     </ul>
- * </p>
+ * The default constructor registers three interpreters by default:
+ * <ul>
+ *     <li>{@link CommandInterpreter}</li>
+ *     <li>{@link OperationInterpreter}</li>
+ *     <li>{@link SubmenuInterpreter}</li>
+ * </ul>
  *
  * @author Bohdan Yarovyi
  * @since 1.0

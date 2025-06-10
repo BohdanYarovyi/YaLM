@@ -14,14 +14,12 @@ import io.github.bohdanyarovyi.cli.menu.Menu;
  *     If you introduce a new type of input (e.g., a new syntax or command),
  *     create a corresponding {@link Interpreter} that defines how to recognize and process that input.
  * </p>
- * <p>
- *     Default interpreter implementations:
- *     <ul>
- *         <li>{@link CommandInterpreter} — interprets predefined commands (e.g. /exit)</li>
- *         <li>{@link OperationInterpreter} — interprets domain-specific operations (e.g. /addWorkout)</li>
- *         <li>{@link SubmenuInterpreter} — interprets numeric selections for submenu navigation</li>
- *     </ul>
- * </p>
+ * Default interpreter implementations:
+ * <ul>
+ *     <li>{@link CommandInterpreter} — interprets predefined commands (e.g. /exit)</li>
+ *     <li>{@link OperationInterpreter} — interprets domain-specific operations (e.g. /addWorkout)</li>
+ *     <li>{@link SubmenuInterpreter} — interprets numeric selections for submenu navigation</li>
+ * </ul>
  *
  * @author Bohdan Yarovyi
  * @since 1.0

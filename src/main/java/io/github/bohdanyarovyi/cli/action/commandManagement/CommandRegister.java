@@ -34,7 +34,7 @@ public class CommandRegister {
      * @param command the command to register
      */
     public void addCommand(Command command) {
-        command.setApplicationContext(context);
+        command.setAppContext(context);
         commands.add(command);
     }
 

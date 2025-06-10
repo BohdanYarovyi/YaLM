@@ -12,12 +12,12 @@ import java.util.regex.Pattern;
  * The abstract class defines a command.
  * <p>
  *     Command assigned for console operation, like ('/back', '/exit' etc).
- *     The framework provides a few build-in commands:
- *     <ul>
- *         <li>{@link BackCommand}</li>
- *         <li>{@link ExitCommand}</li>
- *     </ul>
  * </p>
+ * The framework provides a few build-in commands:
+ * <ul>
+ *     <li>{@link BackCommand}</li>
+ *     <li>{@link ExitCommand}</li>
+ * </ul>
  * <p>
  *     {@link CommandRegister} manages commands, so to add new command,
  *     you should register it in the {@link CommandRegister} of a specific menu.
@@ -31,6 +31,11 @@ public abstract class Command implements Inputable {
      * Application context for component access possibility.
      */
     private AppContext appContext;
+
+    /**
+     * Default constructor
+     */
+    public Command() {}
 
     /**
      * Executes the logic of a console command.
@@ -53,11 +58,11 @@ public abstract class Command implements Inputable {
         return input.matches("^" + Pattern.quote(getPattern()) + "(\\s+.*)?$");
     }
 
-    public void setApplicationContext(AppContext appContext) {
+    public void setAppContext(AppContext appContext) {
         this.appContext = appContext;
     }
 
-    public AppContext getApplicationContext() {
+    public AppContext getAppContext() {
         return this.appContext;
     };
 

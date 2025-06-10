@@ -19,6 +19,11 @@ import io.github.bohdanyarovyi.cli.menu.Menu;
 public class BackCommand extends Command {
 
     /**
+     * Default constructor
+     */
+    public BackCommand() {}
+
+    /**
      * Executes the back navigation command.
      * <p>
      *     It sets the current menu's {@code running} flag to {@code false},

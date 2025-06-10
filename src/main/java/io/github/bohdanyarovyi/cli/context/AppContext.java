@@ -32,6 +32,9 @@ public class AppContext {
      */
     private final Map<String, Object> components = new HashMap<>();
 
+    /**
+     * Default constructor
+     */
     public AppContext() {}
 
     /**

@@ -22,23 +22,23 @@ public interface Inputable {
      * <p>
      *     Pattern defines what user should enter to execute command.
      * </p>
-     * <p>
-     *      <b>Example:</b>
-     *      <pre>
-     *           {@code
-     *               @Override
-     *               public String getPattern() {
-     *                   return "/back";
-     *               }
-     *           }
-     *      </pre>
-     *      <b>User should enter, to execute this command:</b>
-     *      <pre>
-     *          {@code
-     *              /back
+     * <b>Example:</b>
+     * <pre>
+     *      {@code
+     *          @Override
+     *          public String getPattern() {
+     *              return "/back";
      *          }
-     *      </pre>
-     * </p>
+     *      }
+     * </pre>
+     * <b>User should enter, to execute this command:</b>
+     * <pre>
+     *     {@code
+     *         /back
+     *     }
+     * </pre>
+     *
+     * @return pattern of inputable command or operation
      */
     String getPattern();
 
