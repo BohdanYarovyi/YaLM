@@ -118,10 +118,21 @@ Quote: Do one thing, and do it well.
 
 ---
 
+## 💎 Use in projects
+YaLM already uses in projects:
+- [**Workout Tracker (CLI)**](https://github.com/BohdanYarovyi/workout-cli)
+  
+> These projects can serve as examples for you to get started quickly and understand how to use the library in real-world tasks.
+
+If you use the library in your project, please let us know — we'll add your link to this list!
+
+---
+
 # 🪪 Contacts
 - Author: Bohdan Yarovyi
 - GitHub: [@BohdanYarovyi](https://github.com/BohdanYarovyi)
 - Email: bogdan.yarovoy.01@gmail.com
+
 ---
 
 ## 📄 License
